@@ -1,0 +1,11 @@
+apiVersion: deploy.cloud.google.com/v1
+kind: Target
+metadata:
+  name: prod
+  annotations: {}
+  labels: {}
+description: prod
+requireApproval: true
+gke:
+  cluster: projects/ai-mobile-apps-442213/locations/us-central1/clusters/cluster-1
+
